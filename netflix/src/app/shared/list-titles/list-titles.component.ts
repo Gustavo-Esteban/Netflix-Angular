@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ListTitlesComponent implements OnInit {
 
  @Input() title!: string;
- //@Input() list = []; //Deu erro vou ver isso dps
+ @Input() list = []; //Deu erro vou ver isso dps
   constructor() { }
 
   ngOnInit(): void {
